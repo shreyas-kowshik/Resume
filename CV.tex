@@ -1,0 +1,166 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.25in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+\begin{document}
+\begin{center}
+\textbf{\Huge Shreyas Kowshik \\ }  
+\indent \hfill \break
+\indent C 415 , Nehru Hall, \hfill Email-id : \textbf{shreyaskowshik@iitkgp.ac.in} \\
+\indent Indian Institute of Tehnology, Kharagpur \hfill Mobile No.: \textbf{9892425461} \\
+\indent West Bengal, INDIA - 721302  \hfill Github:\url{https://github.com/shreyas-kowshik/} \\
+\end{center}
+
+\hspace{0.5cm}\\[-0.2cm]
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ 
+%\begin{table}[ht!]
+%\begin{center}
+
+\indent \begin{tabular}{ l @{\hskip 0.25in} l @{\hskip 0.25in} l @{\hskip 0.25in} l @{\hskip 0.25in} l }
+\hline
+\textbf{Education} & \textbf{Institute} & \textbf{Year} & \textbf{CPI / \%} \\
+\hline
+Integrated Msc.:\\
+{Mathematics And Computing} & IIT Kharagpur  & 2017- Till date & \textbf{9.47 / 10} \\ \\
+12th & Thakur Vidya Mandir, Mumbai & 2015 - 2017 & \textbf{96.31 \%}\\ \\
+10th & Thakur Public School, Mumbai & 2015 & \textbf{97.5 \%}\\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \hfill \break \\
+
+\resheading{\textbf{RESEARCH PAPERS} }\\[\lsep]
+
+\begin{itemize}
+\item \textbf{Traffic Sign Detection Using Hybrid Features And CNN} \\
+\emph{October 2018}
+	\begin{itemize}
+	\item Proposed a unique Branch CNN architecture to reduce the model parameters manifold.
+	\item Submitted at the 8th \textbf{ICPRAM}, 2019.
+	\end{itemize}
+\end{itemize}
+
+\resheading{\textbf{MAJOR PROJECTS} }\\[\lsep]
+
+\begin{itemize}
+\item \textbf{Autonomous Car} \hspace{0.5cm} \\ 
+\emph{Autonomous Ground Vehicle Research Group}\\
+ \emph{(Guide: Prof. Debashish Chakravarty																							
+, March'18 - till date)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Working to convert Mahindra E2O into a fully operational self driving car
+	\item Experimented with CNN architectures using primitive image feartures like HOG and SURF to reduce computation size of architectures.
+	\item Worked on the Frenet Planner for efficient highway trajectory maneuvers.
+.
+	\item Research Areas: Path Planning,Computer Vision.
+	\end{itemize} 
+
+\item \textbf{Eklavya 4.0} \\ 
+\emph{Autonomous Ground Vehicle Research Group} \hspace{0.5cm}
+{}\\
+ \emph{(Guide: Prof. Debashish Chakravarty																							
+, April'18 - June'18} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Adjuged \textbf{2nd} in \textbf{Intelligent Ground Vehicle Competition,2018}.
+	\item Worked on \textbf{robot-localization},\textbf{Timed Elastic Band} ROS local planner,\textbf{lane detection} and \textbf{waypoint navigation}.
+	\item Implemented \textbf{SVM} based \textbf{object-detection} and \textbf{lane detection} using \textbf{pixel-clustering}.
+	\end{itemize} 
+
+\item \textbf{Image Dehazing Using Dark Channel Prior} \hspace{0.5cm} \url{https://github.com/dishank-b/dark-channel-prior}
+
+	\emph{Image Processing Term Project}
+	\begin{itemize}\itemsep \isep
+	\item Implemented the paper '\textbf{Single Image Dehazing Using Dark Channel Prior}'.
+	
+	\item Used a \textbf{guided filter} to refine the transmisison map to obtain better quality images. 
+	\end{itemize} 
+	
+\item \textbf{Kharagpur Robosoccer Student's Group} \\ 
+ \emph{Guide: Prof. Jayanta Mukhopadhyay										
+, April'18 - June'18} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Worked on the software stack for soccer playing robots in robocup.
+	\item Implemented a \textbf{fuzzy-logic},based passaing mechanism.
+	\item Wrote a RRT* planner from scratch in C++. \\ \\
+	\end{itemize} 
+\end{itemize}
+
+\hspace{0.5cm}\\[-0.2cm]
+
+\hspace{0.5cm}\\[-0.2cm]
+
+\resheading{\textbf{SIDE PROJECTS AND PAPER IMPLEMENTATIONS} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Reinforcement Learning Stack} \hspace{1.0cm} \url{https://github.com/shreyas-kowshik/RL-algorithms}
+	\begin{itemize}\itemsep \isep
+	\item Implementation of RL algorithms on Open-AI Gym Environments.
+	
+	\item Implemented \textbf{Dynamic Programming}, \textbf{Monte Carlo}, \textbf{Temporal Difference} Learning,\textbf{Deep Q-learning} and \textbf{Policy Gradient} algorithms. 
+	\end{itemize}
+	
+\item \textbf{Deep Convolutional Generative Adversarial Networks} \hspace{0.5cm} \url{https://github.com/shreyas-kowshik/Generative-Models-Tensorflow} \\
+\emph{Paper Implementation}
+
+\end{itemize}
+
+\resheading{\textbf{AWARDS AND ACHIEVEMENTS} }\\[\lsep]
+\begin{itemize}
+
+\item \noindent \textbf{2nd Runner Up}, Image Processing Event,Fortress, Kshitij,2017 
+\item \noindent \textbf{Gold Medal,Indian National Chemistry Olympiad} : Among the top 35 students nationally to be selected for the training-cum-selection camp for the International Chemistry Olympiad(IChO) 2017.
+\item \noindent \textbf{KVPY 2017. All India Rank 18} :
+One of the presitigious examination initiated by Department of Science and Technology, Government of India
+\end{itemize}
+
+\hspace{0.5cm}\\[-0.2cm]
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Languages} C, C++, Python, Matlab, {\LaTeX{}} \\
+\textbf{Libraries and Tools} Tensorflow,OpenCV, ROS, Octave \\
+\textbf{Field of Interest} Computer Vision, Path Planning, Machine Learning,Reinforcement Learning. \\
+\end{itemize}
+
+\end{document}
